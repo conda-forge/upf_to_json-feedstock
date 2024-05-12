@@ -1,5 +1,5 @@
 {% set name = "upf_to_json" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 08f3a4c739c6e5f59e601086d56496a4905fe60a2ffdb5a2e85fa8e57de6f8c3
+  sha256: 57614c4c8677f04f161679ce4eddb2f55b87984605b8a5253d3d288235f56e4a
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Unified Pseudopotential Format to JSON converter for Python'
+  summary: Unified Pseudopotential Format to JSON converter for Python
 
   description: |
     UPF is a file format to describe atomic pseudo-potentials used by (DFT) density
