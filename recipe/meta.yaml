@@ -16,15 +16,18 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
-    - six
+    - python >=3.5
 
 test:
   imports:
     - upf_to_json
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/simonpintarelli/upf_to_json
