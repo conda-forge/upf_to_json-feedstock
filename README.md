@@ -35,7 +35,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-upf_to_json-green.svg)](https://anaconda.org/conda-forge/upf_to_json) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/upf_to_json.svg)](https://anaconda.org/conda-forge/upf_to_json) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/upf_to_json.svg)](https://anaconda.org/conda-forge/upf_to_json) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/upf_to_json.svg)](https://anaconda.org/conda-forge/upf_to_json) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-upf__to__json-green.svg)](https://anaconda.org/conda-forge/upf_to_json) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/upf_to_json.svg)](https://anaconda.org/conda-forge/upf_to_json) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/upf_to_json.svg)](https://anaconda.org/conda-forge/upf_to_json) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/upf_to_json.svg)](https://anaconda.org/conda-forge/upf_to_json) |
 
 Installing upf_to_json
 ======================

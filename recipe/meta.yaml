@@ -1,13 +1,13 @@
 {% set name = "upf_to_json" %}
-{% set version = "0.9.5" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 57614c4c8677f04f161679ce4eddb2f55b87984605b8a5253d3d288235f56e4a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: aa5e019377e0c228dc5f95699fad2fda5cb035def1d3a18a3d2381a3328a8a11
 
 build:
   noarch: python
